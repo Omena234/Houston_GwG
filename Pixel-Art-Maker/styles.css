@@ -1,0 +1,72 @@
+@keyframes border {
+  from {border-color: #26547C;}
+  to {border-color:	#EF476F;}
+}
+
+body {
+  border: dotted 10px;
+  animation-name: border;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  background-color: #FFD166;
+  color: #EF476F;
+  min-height: 88vh;
+  margin: 25px;
+}
+
+button {
+  margin: 1em;
+  padding: .5em;
+  width: 100px;
+}
+
+#color {
+  margin-bottom: 5em;
+  width: 100px;
+  height: 75px;
+}
+
+#footer {
+  height: 25px;
+}
+
+#grid {
+  margin: auto;
+}
+
+h1 {
+  padding-top: 25px;
+  font-family: 'Press Start 2P', cursive;
+  color: #06D6A0;
+  text-shadow: 2px 2px #FFFCF9;
+}
+
+h3 {
+  color: #EF476F;
+}
+
+input {
+  margin: 1em;
+  padding: .5em;
+  width: 100px;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border: .25px solid black;
+}
+
+td {
+  height: 25px;
+  width: 25px;
+}
+
+table {
+  margin: auto;
+}
