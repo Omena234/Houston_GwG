@@ -97,16 +97,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   html {
+html {
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
    }
-header, footer {
-    background-color: grey;
-   }
 
-#header-fonts {
-    font-family: 'Poiret One', cursive;
-    font-size: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #17BEBB;
+}
+li{
+    float: right;
+}
+header, footer{
+    background: purple; 
+} 
+li, a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #17BEBB;
+   }
+img {
+    background-size: auto;
 }
 
 #links-right {
